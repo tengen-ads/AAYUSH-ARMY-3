@@ -1,298 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>9X PROFIT BY BY PENNEL</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-body{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:20px;
-    background:
-    radial-gradient(circle at top,#07071b,#02020a 70%);
-    overflow:hidden;
-}
-
-.card{
-    width:100%;
-    max-width:430px;
-
-    background:
-    linear-gradient(145deg,#11111c,#191936);
-
-    border-radius:35px;
-
-    padding:35px 24px;
-
-    text-align:center;
-
-    border:1px solid rgba(255,255,255,0.05);
-
-    box-shadow:
-    0 0 40px rgba(0,0,0,.7),
-    inset 0 0 20px rgba(255,255,255,.02);
-
-    margin:auto;
-}
-
-.profile-wrap{
-    width:130px;
-    height:130px;
-
-    margin:auto;
-
-    border-radius:50%;
-
-    padding:5px;
-
-    background:#00ff84;
-
-    box-shadow:
-    0 0 18px #00ff84,
-    0 0 45px rgba(0,255,132,.55);
-}
-
-.profile-wrap img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    border-radius:50%;
-    border:4px solid #111122;
-}
-
-h1{
-    margin-top:28px;
-
-    color:#ffbf1f;
-
-    font-size:34px;
-
-    font-weight:800;
-
-    line-height:1.35;
-
-    text-shadow:
-    0 0 12px rgba(255,191,31,.3);
-}
-
-.subtitle{
-    margin-top:20px;
-
-    color:#ffffff;
-
-    font-size:20px;
-
-    line-height:1.8;
-
-    font-weight:400;
-}
-
-.subtitle span{
-    color:#00ff84;
-    font-weight:700;
-}
-
-.fire{
-    margin-top:5px;
-    font-size:28px;
-}
-
-.timer-box{
-    margin-top:32px;
-
-    background:#0b1020;
-
-    border:2px solid rgba(0,255,132,.15);
-
-    border-radius:22px;
-
-    padding:22px 15px;
-
-    color:#fff;
-
-    font-size:19px;
-
-    font-weight:600;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:8px;
-    flex-wrap:wrap;
-}
-
-.count{
-    color:#ffbf1f;
-
-    font-size:44px;
-
-    font-weight:800;
-
-    line-height:1;
-}
-
-.join-btn{
-    width:100%;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
-
-    margin-top:28px;
-
-    padding:24px 15px;
-
-    background:#ff9800;
-
-    color:#000;
-
-    border-radius:24px;
-
-    text-decoration:none;
-
-    font-size:26px;
-
-    font-weight:800;
-
-    box-shadow:
-    0 10px 0 #c96f00,
-    0 0 25px rgba(255,152,0,.35);
-
-    transition:.15s ease;
-}
-
-.join-btn:active{
-    transform:translateY(5px);
-
-    box-shadow:
-    0 5px 0 #c96f00,
-    0 0 18px rgba(255,152,0,.35);
-}
-
-.bottom-text{
-    margin-top:32px;
-
-    color:#dddddd;
-
-    font-size:17px;
-
-    line-height:2;
-}
-
-.footer{
-    margin-top:26px;
-
-    color:#8d91ac;
-
-    font-size:14px;
-
-    font-weight:600;
-
-    letter-spacing:2px;
-
-    line-height:1.8;
-}
-
-@media(max-width:480px){
-
-   aspect-ratio:9/16;
-display:flex;
-flex-direction:column;
-justify-content:center;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jai Club Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+    body{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:radial-gradient(circle at top,#12142d,#050510);
+      padding:20px;
+    }
+
+    .card{
+      width:390px;
+      max-width:100%;
+      border-radius:35px;
+      padding:38px 25px;
+      text-align:center;
+      background:linear-gradient(145deg,#12141d,#19183c);
+      box-shadow:0 0 40px rgba(0,0,0,.6);
+      color:white;
+    }
+
+    .profile{
+      width:145px;
+      height:145px;
+      border-radius:50%;
+      margin:auto;
+      border:5px solid #00ff8c;
+      box-shadow:0 0 25px #00ff8c;
+      overflow:hidden;
+    }
+
+    .profile img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
     }
 
     h1{
-        font-size:30px;
+      margin-top:30px;
+      color:#ffb400;
+      font-size:34px;
+      font-weight:800;
     }
 
-    .subtitle{
-        font-size:18px;
+    .sub{
+      margin-top:18px;
+      font-size:18px;
+      line-height:1.6;
+      color:#ddd;
     }
 
-    .join-btn{
-        font-size:23px;
-        padding:22px 12px;
+    .green{color:#00ff7b;font-weight:700;}
+
+    .timer{
+      margin-top:30px;
+      border:1px solid rgba(0,255,136,.3);
+      border-radius:20px;
+      padding:22px;
+      font-size:20px;
+      font-weight:600;
     }
 
-    .count{
-        font-size:40px;
+    .timer span{
+      color:#ffb400;
+      font-size:34px;
+      font-weight:800;
     }
-}
 
-</style>
+    .btn{
+      margin-top:35px;
+      display:block;
+      text-decoration:none;
+      color:black;
+      background:#ffa500;
+      padding:28px;
+      border-radius:22px;
+      font-size:24px;
+      font-weight:800;
+      box-shadow:0 10px 0 #d16f00,0 0 30px rgba(255,165,0,.4);
+    }
+
+    .footer{
+      margin-top:35px;
+      color:#cfcfcf;
+      font-size:16px;
+      line-height:1.8;
+    }
+
+    .copy{
+      margin-top:35px;
+      opacity:.55;
+      font-size:14px;
+      letter-spacing:2px;
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="card">
+  <div class="card">
 
-    <div class="profile-wrap">
-        <img src="https://www.image2url.com/r2/default/images/1778340828610-554d31fc-7e1c-45df-b1cc-ec5b42898556.jpg" alt="">
+    <div class="profile">
+      <!-- APNI IMAGE KA LINK YAHAN DALO -->
+      <img src="YOUR-IMAGE.jpg" alt="profile">
     </div>
 
-    <h1>9X PROFIT BY BY<br>PENNEL</h1>
+    <h1>JAI CLUB OFFICIAL</h1>
 
-    <div class="subtitle">
-        Join the Fast Growing Community<br>
-        Get <span>Regular Updates & Insights</span>
+    <p class="sub">
+      Join the Fast Growing Community<br>
+      Get <span class="green">Regular Updates & Insights 🔥</span>
+    </p>
+
+    <div class="timer">
+      ⚡ Free access closes in <span id="count">9</span> s
     </div>
 
-    <div class="fire">🔥</div>
-
-    <div class="timer-box">
-        ⚡ Free access closes in
-        <span class="count" id="count">9</span>
-        s
-    </div>
-
-    <a href="https://t.me/+3ElecVopED42NmRl" class="join-btn">
-        🚀 JOIN TELEGRAM NOW
+    <!-- APNA TELEGRAM LINK -->
+    <a href="https://t.me/yourchannel" class="btn">
+      🚀 JOIN TELEGRAM NOW
     </a>
 
-    <div class="bottom-text">
-        ✅ Trusted by Thousands of Members<br>
-        🔒 For Educational Purpose Only
-    </div>
-
     <div class="footer">
-        ©TENGENADSAGENCY TG<br>
-    
+      ✅ Trusted by Thousands of Members<br>
+      🔒 For Educational Purpose Only
     </div>
 
-</div>
+    <div class="copy">
+      © ADS MANAGED BY TG @TOPSADAGENCY
+    </div>
 
-<script>
+  </div>
 
-let count = 9;
-
-setInterval(() => {
-
-    count--;
-
-    if(count <= 0){
-        count = 9;
-    }
-
-    document.getElementById("count").innerText = count;
-
-},1000);
-
-</script>
+  <script>
+    let n=9;
+    setInterval(()=>{
+      if(n>0){
+        n--;
+        document.getElementById('count').innerText=n;
+      }
+    },1000)
+  </script>
 
 </body>
 </html>
